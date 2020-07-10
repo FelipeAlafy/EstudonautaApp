@@ -5,8 +5,8 @@
     <string name="strCursos">courses</string>
     <string name="strMedia">Media</string>
     <string name="strBtnVoltar">Back</string>
-    <string name="strEquipeTitulo">Equipe Estudonauta</string>
-    <string name="strTextoDescritivo">Here you will enter the description</string>
+    <string name="strEquipeTitulo">Estudonauta Team</string>
+    <string name="strTextoDescricao">The Estudonauta idea was born in 2016 and since then several test videos have been recorded to validate the idea and model the format. At the end of 2017 Alpha Testing was opened for 200 Founding students and at the end of 2018 Beta Testing was opened for many others. The platform today has hundreds of classes, divided into several courses that are being launched in modules. The team started with three people and today has 8 professionals and an intern, each specialized in a specific area. So, when you receive a new module and get ready to watch all the videos, the work was done by all these guys, which we will list below:</string>
     <string name="strEquipeCaynan">Caynan Scremin (Editing cuts)</string>
     <string name="strEquipeFelipeAlafy">Felipe Alafy (Android Developer)</string>
     <string name="strEquipeGuanabara" >Gustavo Guanabara (Teacher)</string>
@@ -16,4 +16,5 @@
     <string name="strEquipeRamon">Ramon Felinto (Desing)</string>
     <string name="strEquipeVera">Vera Machado (Tutor)</string>
     <string name="strEquipeYgor">Ygor Escure (Completion)</string>
+    <string name="strEstudonautaLogo" >Estudonauta icon</string>
 </resources>

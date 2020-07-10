@@ -18,30 +18,35 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:text="@string/strEquipeTitulo"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:contentDescription="@string/strEstudonautaLogo"
                 android:src="@drawable/logoestudonauta" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:text="@string/strTextoDescritivo" />
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/strTextoDescricao"
+                android:textSize="18sp"
+                tools:text="@string/strTextoDescricao" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -49,13 +54,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/strEquipeCaynan"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeCaynan"
                 android:src="@drawable/fotocaynan" />
 
             <TextView
@@ -63,14 +71,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:contentDescription="@string/strEquipeFelipeAlafy"
                 android:text="@string/strEquipeFelipeAlafy"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeFelipeAlafy"
                 android:src="@drawable/fotofelipe" />
 
             <TextView
@@ -78,14 +90,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:contentDescription="@string/strEquipeFelipeAlafy"
                 android:text="@string/strEquipeGuanabara"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeFelipeAlafy"
                 android:src="@drawable/fotoguanabara" />
 
             <TextView
@@ -93,14 +109,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:contentDescription="@string/strEquipeItalo"
                 android:text="@string/strEquipeItalo"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeItalo"
                 android:src="@drawable/fotoitalo" />
 
             <TextView
@@ -109,13 +129,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/strEquipeMichel"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeMichel"
                 android:src="@drawable/fotomichel" />
 
             <TextView
@@ -124,13 +147,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/strEquipePriscila"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipePriscila"
                 android:src="@drawable/fotopriscila" />
 
             <TextView
@@ -139,13 +165,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/strEquipeRamon"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeRamon"
                 android:src="@drawable/fotoramon" />
 
             <TextView
@@ -154,28 +183,34 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/strEquipeVera"
-                android:textSize="24sp" />
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeVera"
                 android:src="@drawable/fotovera" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="@string/strEquipeYgor"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="24sp"
-                android:layout_marginTop="10dp" />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strEquipeYgor"
                 app:srcCompat="@drawable/fotoygor" />
         </LinearLayout>
     </ScrollView>
