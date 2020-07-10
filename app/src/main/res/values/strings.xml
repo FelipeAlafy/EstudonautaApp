@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Estudonauta</string>
+    <string name="strDireitos">all rights reserved to estudonauta.com</string>
+    <string name="strTeam">Team</string>
+    <string name="strCursos">courses</string>
+    <string name="strMedia">Media</string>
 </resources>

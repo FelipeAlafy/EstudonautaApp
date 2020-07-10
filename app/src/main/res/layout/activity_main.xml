@@ -18,4 +18,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/estudonautatopo" />
+
+    <LinearLayout
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <Button
+            android:id="@+id/btnCursos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorAccent"
+            android:onClick="clickCursos"
+            android:text="@string/strCursos"
+            android:textColor="@color/cianoEscuro"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnEquipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorAccent"
+            android:onClick="clickTeam"
+            android:text="@string/strTeam"
+            android:textColor="@color/cianoEscuro"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnMidia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorAccent"
+            android:onClick="clickMidia"
+            android:text="@string/strMedia"
+            android:textColor="@color/cianoEscuro"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/strDireitos"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
