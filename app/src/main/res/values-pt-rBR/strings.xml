@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Estudonauta</string>
+    <string name="strDireitos">Todos os direitos reservados a estudonauta.com</string>
+    <string name="strTeam">Equipe</string>
+    <string name="strCursos">Cursos</string>
+    <string name="strMedia">Mídia</string>
+    <string name="strBtnVoltar">Voltar</string>
+    <string name="strEquipeTitulo">Equipe Estudonauta</string>
+    <string name="strTextoDescricao">
+        \tA ideia do <b>Estudonauta</b> nasceu em 2016 e desde então\n
+        vários vídeos de teste vêm sendo gravados para validar a ideia e modelar o formato.\n
+        No final de 2017 foi aberto o Alpha Testing para  <u>200 alunos Fundadores</u> e no final\n
+        de 2018 foi aberto o <b><i>Beta Testing para muitos outros.</i></b>\n
+
+        \n\tA plataforma conta hoje com centenas de aulas, dividas em vários cursos que estão\n
+        sendo lançados em modulos. A equipe começou com três pessoas e hoje conta com 8 profissonais\n
+        e um estágiario, cada um especializado em uma área específica.\n
+
+        \n\tLogo, quando você recebe um modulo novo e se prepara para assitir todos os vídeos,\n
+        o trabalho foi feito por toda essa galera, que listaremos a seguir:</string>
+    <string name="strEquipeCaynan">Caynan Scremin (Editor de cortes)</string>
+    <string name="strEquipeFelipeAlafy">Felipe Alafy (Programador Android)</string>
+    <string name="strEquipeGuanabara">Gustavo Guanabara (Professor)</string>
+    <string name="strEquipeItalo">Italo Alves (Editor de cortes)</string>
+    <string name="strEquipeMichel">Michel Guanabara (Finalização)</string>
+    <string name="strEquipePriscila">Priscila Marinho (Programadora)</string>
+    <string name="strEquipeRamon">Ramon Felinto (Desing)</string>
+    <string name="strEquipeVera">Vera Machado (Tutora)</string>
+    <string name="strEquipeYgor">Ygor Escure (Finalização)</string>
+    <string name="strEstudonautaLogo">Logo do Estudonauta</string>
+</resources>
