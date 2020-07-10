@@ -5,4 +5,15 @@
     <string name="strCursos">courses</string>
     <string name="strMedia">Media</string>
     <string name="strBtnVoltar">Back</string>
+    <string name="strEquipeTitulo">Equipe Estudonauta</string>
+    <string name="strTextoDescritivo">Here you will enter the description</string>
+    <string name="strEquipeCaynan">Caynan Scremin (Editing cuts)</string>
+    <string name="strEquipeFelipeAlafy">Felipe Alafy (Android Developer)</string>
+    <string name="strEquipeGuanabara" >Gustavo Guanabara (Teacher)</string>
+    <string name="strEquipeItalo">Italo Alves (Editing cuts)</string>
+    <string name="strEquipeMichel">Michel Guanabara (Completion)</string>
+    <string name="strEquipePriscila">Priscila Marinho (Programadora)</string>
+    <string name="strEquipeRamon">Ramon Felinto (Desing)</string>
+    <string name="strEquipeVera">Vera Machado (Tutor)</string>
+    <string name="strEquipeYgor">Ygor Escure (Completion)</string>
 </resources>

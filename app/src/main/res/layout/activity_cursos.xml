@@ -10,7 +10,6 @@
         android:id="@+id/btnCursosVoltar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimaryDark"
         android:onClick="back"
         android:text="@string/strBtnVoltar"
@@ -18,7 +17,7 @@
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
