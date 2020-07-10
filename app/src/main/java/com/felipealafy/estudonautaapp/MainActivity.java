@@ -15,10 +15,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickCursos(View view) {
+        tela = new Intent(getApplicationContext(), ActivityCursos.class);
+        startActivity(tela);
     }
 
     public void clickTeam(View view) {
-        tela = new Intent(getApplicationContext(), Equipe.class);
+        tela = new Intent(getApplicationContext(), ActivityEquipe.class);
         startActivity(tela);
     }
 
