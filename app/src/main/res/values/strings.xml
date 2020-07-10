@@ -4,4 +4,5 @@
     <string name="strTeam">Team</string>
     <string name="strCursos">courses</string>
     <string name="strMedia">Media</string>
+    <string name="strBtnVoltar" >Back</string>
 </resources>
