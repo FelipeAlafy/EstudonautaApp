@@ -7,11 +7,12 @@
     tools:context=".ActivityCursos">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCursosVoltar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimaryDark"
+        android:onClick="back"
         android:text="@string/strBtnVoltar"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
@@ -29,7 +30,7 @@
         android:textAlignment="center"
         android:textColor="@color/cianoEscuro"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnCursosVoltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
