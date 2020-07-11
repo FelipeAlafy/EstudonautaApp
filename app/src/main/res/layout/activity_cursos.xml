@@ -33,12 +33,14 @@
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="50dp"
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="60dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoPortugol"
                 app:srcCompat="@drawable/cursoportugol" />
 
             <ImageView
@@ -51,6 +53,7 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="60dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoLingC"
                 app:srcCompat="@drawable/cursolingc" />
 
             <ImageView
@@ -64,6 +67,7 @@
                 android:layout_marginBottom="60dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoKotlin"
                 app:srcCompat="@drawable/cursokotlin" />
 
             <ImageView
@@ -77,6 +81,7 @@
                 android:layout_marginBottom="60dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoLingCSharp"
                 app:srcCompat="@drawable/cursolingcsharp" />
 
             <ImageView
@@ -90,6 +95,7 @@
                 android:layout_marginBottom="60dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoAndroid"
                 app:srcCompat="@drawable/cursoandroid" />
 
             <ImageView
@@ -103,6 +109,7 @@
                 android:layout_marginBottom="60dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoPHP"
                 app:srcCompat="@drawable/cursophp" />
 
             <ImageView
@@ -111,11 +118,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="35dp"
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="60dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/strCursoProdVideos"
                 app:srcCompat="@drawable/cursovideo" />
 
         </LinearLayout>

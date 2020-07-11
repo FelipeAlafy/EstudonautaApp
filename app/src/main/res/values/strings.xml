@@ -24,4 +24,5 @@
     <string name="strCursoKotlin">Cuorse of Language Kotlin.</string>
     <string name="strCursoPHP">Cuorse of PHP + MYSQL.</string>
     <string name="strCursoAndroid">Cuorse of Android Studio.</string>
+    <string name="strCursoProdVideos">Cuorse of videos production.</string>
 </resources>
