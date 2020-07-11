@@ -18,4 +18,10 @@
     <string name="strEquipeYgor">Ygor Escure (Completion)</string>
     <string name="strEstudonautaLogo" >Estudonauta icon</string>
     <string name="strCursoTitulo">All Cuorses</string>
+    <string name="strCursoPortugol">Cuorse of Logic with portugol studio.</string>
+    <string name="strCursoLingC">Cuorse of Language C.</string>
+    <string name="strCursoLingCSharp">Cuorse of Language C#.</string>
+    <string name="strCursoKotlin">Cuorse of Language Kotlin.</string>
+    <string name="strCursoPHP">Cuorse of PHP + MYSQL.</string>
+    <string name="strCursoAndroid">Cuorse of Android Studio.</string>
 </resources>
