@@ -30,7 +30,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/imgCursoPortugol"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
@@ -41,10 +41,11 @@
                 android:layout_marginBottom="60dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoPortugol"
+                android:onClick="clickCursoPortugol"
                 app:srcCompat="@drawable/cursoportugol" />
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/imgCursoLingC"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -54,10 +55,11 @@
                 android:layout_marginBottom="60dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoLingC"
+                android:onClick="clickCursoLingC"
                 app:srcCompat="@drawable/cursolingc" />
 
             <ImageView
-                android:id="@+id/imageView15"
+                android:id="@+id/imgCursoKotlin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -68,10 +70,11 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoKotlin"
+                android:onClick="clickCursoKotlin"
                 app:srcCompat="@drawable/cursokotlin" />
 
             <ImageView
-                android:id="@+id/imageView16"
+                android:id="@+id/imgCursoLingCSharp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -82,10 +85,11 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoLingCSharp"
+                android:onClick="clickCursoCursoLingCSharp"
                 app:srcCompat="@drawable/cursolingcsharp" />
 
             <ImageView
-                android:id="@+id/imageView17"
+                android:id="@+id/imgCursoAndroid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -96,10 +100,11 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoAndroid"
+                android:onClick="clickCursoAndroid"
                 app:srcCompat="@drawable/cursoandroid" />
 
             <ImageView
-                android:id="@+id/imageView18"
+                android:id="@+id/imgCursoPHP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -110,10 +115,11 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoPHP"
+                android:onClick="clickCursoPHP"
                 app:srcCompat="@drawable/cursophp" />
 
             <ImageView
-                android:id="@+id/imageView20"
+                android:id="@+id/imgCursoProdVideo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -124,6 +130,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/strCursoProdVideos"
+                android:onClick="clickCursoProdVideos"
                 app:srcCompat="@drawable/cursovideo" />
 
         </LinearLayout>
