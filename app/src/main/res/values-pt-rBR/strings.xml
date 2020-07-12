@@ -29,4 +29,12 @@
     <string name="strEquipeVera">Vera Machado (Tutora)</string>
     <string name="strEquipeYgor">Ygor Escure (Finalização)</string>
     <string name="strEstudonautaLogo">Logo do Estudonauta</string>
+    <string name="strCursoTitulo">Todos os Cursos</string>
+    <string name="strCursoPortugol">Curso de lógica com Portugol Studio.</string>
+    <string name="strCursoLingC">Curso de Linguagem C.</string>
+    <string name="strCursoLingCSharp">Curso de Linguagem C#.</string>
+    <string name="strCursoKotlin">"Curso de Linguagem Kotlin. "</string>
+    <string name="strCursoPHP">Curso de PHP + MYSQL.</string>
+    <string name="strCursoAndroid">Curso de Android Studio.</string>
+    <string name="strCursoProdVideos">Curso de produção de vídeos.</string>
 </resources>
